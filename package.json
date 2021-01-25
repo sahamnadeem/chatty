@@ -1,0 +1,26 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "chatty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahamnadeem/chatty.git"
+  },
+  "keywords": [
+    "chatty"
+  ],
+  "author": "M Saham Nadeem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahamnadeem/chatty/issues"
+  },
+  "homepage": "https://github.com/sahamnadeem/chatty#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
+}
