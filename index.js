@@ -13,7 +13,7 @@ io.on('connection', (socket) => {
   });
   socket.on('request:online-users',(data)=>{
     console.log('api hit'+data.token);
-    socket.emit('response:online-users',[{user_id:"_2432444243"},{user_id:"_2432444243"},{user_id:"_2432444243"},{user_id:"_2432444243"},{user_id:"_2432444243"},{user_id:"_2432444243"},{user_id:"_2432444243"}])
+    socket.emit('response:online-users',[{user_id:"_2432444243"}])
   })
 });
 
